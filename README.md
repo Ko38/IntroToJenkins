@@ -15,7 +15,7 @@ Some Jenkins Plugins we may need
 
 ```
 nuget restore
-msbuild \t:Clean
+msbuild /t:Clean,Build
 nunit3-console.exe dll
 ```
 
