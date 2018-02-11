@@ -1,4 +1,4 @@
-## Introduction to Jenkins
+# Introduction to Jenkins
 
 [Jenkins Website](https://jenkins.io/)
 
@@ -26,3 +26,9 @@ To move files in Powershell with excluding
 robocopy . ../UnitTest /E /xf .git* /xd .git*
 exit 0
 ```
+
+## Exercise
+Create three different Jenkins jobs which they do these:
+1. Git pull
+2. Move it to the current workspace, then build and run tests.
+3. Move it to another folder (This exemplifies deploying)
