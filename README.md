@@ -12,3 +12,9 @@ Some Jenkins Plugins we may need
 * Warnings Plugin
 * Nunit Plugin
 * MSBuild Plugin
+
+```
+nuget restore
+msbuild \t:Clean
+nunit3-console.exe dll
+```
