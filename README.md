@@ -18,3 +18,9 @@ nuget restore
 msbuild \t:Clean
 nunit3-console.exe dll
 ```
+
+To move files in Powershell with excluding
+```powershell
+robocopy . ../UnitTest /E /xf .git* /xd .git*
+exit 0
+```
