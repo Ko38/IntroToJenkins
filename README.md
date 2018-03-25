@@ -8,6 +8,9 @@
 [Download Nunit3-console](https://github.com/nunit/nunit-console/releases/tag/3.8) (Path: C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe)  
 
 MSTest: (Path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe)
+
+MSTest: Path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\MSTest.exe
+
 Some Jenkins Plugins we may need  
 * Build Pipeline Plugin
 * Powershell Plugin
