@@ -13,7 +13,7 @@ namespace DummyProj
         [Test]
         public void UnitTest()
         {
-            Assert.That(1, Is.EqualTo(1));
+            Assert.That(1, Is.EqualTo(2));
         }
     }
 }
