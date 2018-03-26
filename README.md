@@ -9,8 +9,6 @@
 
 MSTest: (Path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe)
 
-MSTest: Path: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\MSTest.exe
-
 Some Jenkins Plugins we may need  
 * Build Pipeline Plugin
 * Powershell Plugin
@@ -23,6 +21,7 @@ Some Jenkins Plugins we may need
 nuget restore
 msbuild /t:Clean,Build
 nunit3-console.exe dll
+vstest.console.exe dll
 ```
 
 To move files in Powershell with excluding
@@ -35,4 +34,6 @@ exit 0
 Create three different Jenkins jobs which they do these:
 1. Git pull
 2. Move it to the current workspace, then build and run tests.
-3. Move it to another folder (This exemplifies deploying)
+3. Move it to my folder (This exemplifies deploying)
+	
+	\\10.12.27.67\Share\Phillip
