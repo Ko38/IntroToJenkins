@@ -15,13 +15,13 @@ Some Jenkins Plugins we may need
 * Git Plugin
 * Warnings Plugin
 * Nunit Plugin
-* MSBuild Plugin
-* Email Extension Plugin
+* MSBuild Plugin 
+* MSTest Plugin
 ```
 nuget restore
 msbuild /t:Clean,Build
 nunit3-console.exe dll
-vstest.console.exe dll
+vstest.console.exe dll /Logger:trx
 ```
 
 To move files in Powershell with excluding
@@ -36,6 +36,6 @@ Create three different Jenkins jobs which they do these:
 2. Move it to the current workspace, then build and run tests.
 3. Move it to my folder (This exemplifies deploying)
 	
-	\\10.12.27.67\Share\Phillip
+	\\\\10.12.27.67\Share\Phillip
 	
 https://subversion.assembla.com/svn/hangmanc-/trunk/	
