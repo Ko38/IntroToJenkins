@@ -9,7 +9,7 @@ namespace MSTestJenkins
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(Math.Add(1, 2), 4);
+            Assert.AreEqual(Math.Add(1, 2), 3);
         }
     }
 
