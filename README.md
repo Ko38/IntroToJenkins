@@ -16,7 +16,7 @@ Some Jenkins Plugins we may need
 * Warnings Plugin
 * Nunit Plugin
 * MSBuild Plugin
-
+* Email Extension Plugin
 ```
 nuget restore
 msbuild /t:Clean,Build
