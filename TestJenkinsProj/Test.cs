@@ -13,7 +13,7 @@ namespace TestJenkinsProj
         [Test]
         public void TestAdd()
         {
-            Assert.That(Math.Add(1, 2), Is.EqualTo(3));
+            Assert.That(Math.Add(1, 2), Is.EqualTo(4));
         }
     }
 
