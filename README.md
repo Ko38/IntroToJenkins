@@ -36,6 +36,4 @@ Create three different Jenkins jobs which they do these:
 2. Move it to the current workspace, then build and run tests.
 3. Move it to my folder (This exemplifies deploying)
 	
-	\\\\10.12.27.67\Share\Phillip
-	
-https://subversion.assembla.com/svn/hangmanc-/trunk/	
+	\\\\10.12.27.67\Share\Jenkins
